@@ -8,7 +8,6 @@ def key_for_min_value(name_hash)
   if (temp_value == "") 
       temp_key = key
       temp_value = value
-  name_hash.collect { |key, value| if value > 0 && value < 2 
-  puts key 
+  elsif (value < temp_value)
   end
 end
