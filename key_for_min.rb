@@ -5,6 +5,9 @@ def key_for_min_value(name_hash)
   return nil if name_hash == {}
   temp_key = ""
   temp_value = ""
+  if (temp_value == "") 
+      temp_key = key
+      temp_value = value
   name_hash.collect { |key, value| if value > 0 && value < 2 
   puts key 
   end
