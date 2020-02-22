@@ -5,5 +5,5 @@
     smallest_hash_key = key if val < name_hash[smallest_hash_key]
   end
   smallest_hash_key
-end 
+  end 
 end
